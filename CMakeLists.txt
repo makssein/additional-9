@@ -3,4 +3,4 @@ project(additional_9)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(additional_9 main.cpp)
+add_executable(additional_9 main.cpp array.cpp array.hpp)

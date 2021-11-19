@@ -1,8 +1,9 @@
-//
-// Created by Максим Сеин on 19.11.2021.
-//
+#pragma once
 
-#ifndef ADDITIONAL_9_ARRAY_H
-#define ADDITIONAL_9_ARRAY_H
+namespace arr{
+    class Array{
+    public:
+        Array();
 
-#endif //ADDITIONAL_9_ARRAY_H
+    };
+}

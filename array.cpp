@@ -1,4 +1,7 @@
-//
-// Created by Максим Сеин on 19.11.2021.
-//
+#include "array.hpp"
 
+namespace arr{
+    Array::Array(){
+        int mas[1000];
+    }
+}
