@@ -2,6 +2,9 @@
 #include "array.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    int n;
+    std::cin >> n;
+    arr::Array mas(n);
+    mas.getSize();
     return 0;
 }
