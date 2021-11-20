@@ -10,8 +10,7 @@ namespace arr{
         delete[] m_mas;
     }
     void Array::add(int num){
-        m_num = num;
-        m_mas[0] = m_num;
+        m_mas[m_size] = num;
         std::cout << m_mas[m_size];
         m_size++;
     }
@@ -29,7 +28,7 @@ namespace arr{
     int Array::average(){
         int sum = 0;
         for(int i = 0; i < m_size; i++){
-            sum+=m_mas[i];
+            sum+=m_mas[i]/m_size;
         }
         return sum;
     }

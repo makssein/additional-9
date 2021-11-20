@@ -12,7 +12,7 @@ namespace arr{
         int average();
     private:
         int* m_mas;
-        int m_n, m_size, m_num;
+        int m_n, m_size;
 
     };
 }

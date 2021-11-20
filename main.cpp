@@ -6,5 +6,7 @@ int main() {
     std::cin >> n;
     arr::Array mas(n);
     mas.getSize();
+    std::cout << mas.getElem(0) << std::endl;
+
     return 0;
 }
