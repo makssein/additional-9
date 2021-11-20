@@ -16,12 +16,12 @@ namespace arr{
     }
     int Array::getSize(){ return m_size; }
     int Array::getElem(int i){ return m_mas[i]; }
-    void Array::insert(int i, int num){
+    void Array::insert(int iter, int num){
         for(int i = 0; i<m_size+1;i++){
             for(int j = m_size+1;j>i;j--){
                 m_mas[j+1] = m_mas[j];
             }
-            m_mas[i] = num;
+            m_mas[iter] = num;
         }
         m_size+=1;
     }

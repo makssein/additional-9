@@ -8,7 +8,7 @@ namespace arr{
         void add(int num);
         int getSize();
         int getElem(int i);
-        void insert(int i, int num);
+        void insert(int iter, int num);
         int average();
     private:
         int* m_mas;
